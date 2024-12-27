@@ -50,10 +50,6 @@ const Hero = () => {
               <p className="text-white">Projects Completed</p>
             </div>
             <div className="bg-black/50 border border-white/20 p-4 rounded-lg">
-              <p className="text-3xl font-bold text-white">15+</p>
-              <p className="text-white">Years Experience</p>
-            </div>
-            <div className="bg-black/50 border border-white/20 p-4 rounded-lg">
               <p className="text-3xl font-bold text-white">100%</p>
               <p className="text-white">Client Satisfaction</p>
             </div>
