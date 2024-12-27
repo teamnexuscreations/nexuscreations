@@ -43,7 +43,7 @@ const Footer = () => {
                 <Facebook size={20} /> Facebook
               </a>
               <a 
-                href="https://www.instagram.com/teamnexus_creations/profilecard/?igsh=Z2p1Ym1uZWdnd2lv" 
+                href="https://www.instagram.com/teamnexuscreations?igsh=NHVuYTZ1dWhpdGhx" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="flex items-center gap-2 text-black hover:text-gray-600"
