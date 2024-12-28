@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { ProcessStep } from './types';
 
 interface ProcessCardProps {
@@ -32,13 +33,13 @@ const ProcessCard = ({ step, index }: ProcessCardProps) => {
       </div>
 
       {/* CTA */}
-      <a 
-        href={step.link} 
+      <Link 
+        to={step.link} 
         className="inline-flex items-center text-black hover:text-gray-700 font-medium"
       >
         {step.linkText}
         <ArrowRight className="ml-2 h-4 w-4 transform group-hover:translate-x-1 transition-transform" />
-      </a>
+      </Link>
     </div>
   );
 };
